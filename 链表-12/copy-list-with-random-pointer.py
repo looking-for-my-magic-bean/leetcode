@@ -1,6 +1,6 @@
 """
 -*- coding: utf-8 -*-
-@File  : copy-list-with-random-pointer.py
+@File  : test_1.py
 @Time  : 2022/3/20
 @Author: Tk <TK@bupt.edu.cn>
 @Software: PyCharm
