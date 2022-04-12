@@ -15,6 +15,9 @@
 Intersected at '8'
 
 """
+from main import ListNode
+from main import SingleLinkedList
+
 
 class Solution:
     def getIntersectionNode(self, headA, headB):
@@ -25,6 +28,7 @@ class Solution:
             pA = headB if pA == None else pA.next
             pB = headA if pB == None else pB.next
         return pA
+
 
 LinkedList = SingleLinkedList()
 LinkedList.add_fist(4)
