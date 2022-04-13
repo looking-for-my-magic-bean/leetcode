@@ -22,7 +22,7 @@ class Solution:
             return right
         if right is None:
             return left
-        return root  # 只有当两边都不为空时才返回该root节点，代表其实根节点
+        return root  # 只有当两边都不为空时才返回该root节点，代表其是根节点
 
 
 test = Solution()

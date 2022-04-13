@@ -5,7 +5,7 @@
 @Author: Tk <TK@bupt.edu.cn>
 @Software: PyCharm
 
-
+核心思想：从后向前确定前一个是否能到达
 
 """
 

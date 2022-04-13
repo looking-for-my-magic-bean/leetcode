@@ -1,11 +1,11 @@
 """
 -*- coding: utf-8 -*-
-@File  : minimum-path-sum.py
+@File  : minimum-path-sum-二刷.py
 @Time  : 2022/3/30
 @Author: Tk <TK@bupt.edu.cn>
 @Software: PyCharm
 
-
+核心思想：自下向上，寻找能到当前元素的可选路径和的最小值加上当前元素值作为到达当前元素的最小路径和。
 
 """
 
