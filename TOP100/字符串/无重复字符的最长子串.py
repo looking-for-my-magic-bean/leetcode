@@ -55,3 +55,4 @@ ss = input()
 s = Solution()
 result = s.lengthOfLongestSubstring(ss)
 print(result)
+
