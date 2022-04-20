@@ -4,11 +4,11 @@
 @Time: 2022/4/20 18:10
 @Author: TK <TK@bupt.edu.cn>
 @Software: PyCharm
-
+核心思想：排序+双指针，关键点在于排序，记住数组是排过序的。
 输入：
-
+-1,0,1,2,-1,-4
 输出：
-
+[[-1,-1,2],[-1,0,1]]
 
 """
 
@@ -54,7 +54,7 @@ class Solution:
         return res
 
 
-ss = input()
+ss = list(map(int, input().split(",")))
 s = Solution()
 result = s.threeSum(ss)
 print(result)
