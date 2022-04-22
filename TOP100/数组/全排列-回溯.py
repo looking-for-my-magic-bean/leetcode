@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@File: 全排列.py
+@File: 全排列-回溯.py
 @Time: 2022/4/22 16:42
 @Author: TK <TK@bupt.edu.cn>
 @Software: PyCharm
@@ -17,8 +17,7 @@ class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         def dfs(nums, size, depth, path, used, res):
             if depth == size:
-                temp = path.copy()
-                res.append(temp)
+                res.append(path.copy())
                 return
 
             for i in range(size):
